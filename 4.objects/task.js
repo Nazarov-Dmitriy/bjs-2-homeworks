@@ -20,6 +20,7 @@ Student.prototype.addMark = function (mark) {
 
 Student.prototype.addMarks = function ( ...args) {
   if (this.marks === undefined) {
+    this.marks = [];
     args.map(el => this.marks.push(el));
 
   } else {
