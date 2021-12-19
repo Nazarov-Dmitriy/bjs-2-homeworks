@@ -31,9 +31,6 @@ class PrintEditionItem {
 class Magazine extends PrintEditionItem {
     constructor(name, releaseDate, pagesCount) {
         super(name, releaseDate, pagesCount);
-        this.name = name;
-        this.releaseDate = releaseDate;
-        this.pagesCount = pagesCount;
         this.state = 100;
         this.type = "magazine";
     }
@@ -42,9 +39,6 @@ class Magazine extends PrintEditionItem {
 class Book extends PrintEditionItem {
     constructor(author, name, releaseDate, pagesCount) {
         super(name, releaseDate, pagesCount);
-        this.name = name;
-        this.releaseDate = releaseDate;
-        this.pagesCount = pagesCount;
         this.author = author;
         this.state = 100;
         this.type = "book";
@@ -55,9 +49,6 @@ class Book extends PrintEditionItem {
 class NovelBook extends PrintEditionItem {
     constructor(author, name, releaseDate, pagesCount) {
         super(name, releaseDate, pagesCount);
-        this.name = name;
-        this.releaseDate = releaseDate;
-        this.pagesCount = pagesCount;
         this.state = 100;
         this.type = "novel";
         this.author = author;
@@ -67,9 +58,6 @@ class NovelBook extends PrintEditionItem {
 class FantasticBook extends PrintEditionItem {
     constructor(author, name, releaseDate, pagesCount) {
         super(name, releaseDate, pagesCount);
-        this.name = name;
-        this.releaseDate = releaseDate;
-        this.pagesCount = pagesCount;
         this.state = 100;
         this.type = "fantastic";
         this.author = author;
@@ -79,9 +67,6 @@ class FantasticBook extends PrintEditionItem {
 class DetectiveBook extends PrintEditionItem {
     constructor(author, name, releaseDate, pagesCount) {
         super(name, releaseDate, pagesCount);
-        this.name = name;
-        this.releaseDate = releaseDate;
-        this.pagesCount = pagesCount;
         this.state = 100;
         this.type = "detective";
         this.author = author;
@@ -194,11 +179,3 @@ class Student {
     }
 
 }
-
-
-
-
-
-
-
-
