@@ -32,19 +32,21 @@ class Triangle {
     }
 
     getPerimeter() {
-        let p = this.a + this.b + this.c;
-        return p;
+        return p = this.a + this.b + this.c;
+       
     }
 
     getArea() {
         let p = this.getPerimeter() / 2;
-        return this.S = +Math.sqrt(p * (p - this.a) * (p - this.b) * (p - this.c)).toFixed(3);
+        S = +Math.sqrt(p * (p - this.a) * (p - this.b) * (p - this.c)).toFixed(3);
+        return S;
     }
 }
 
 function getTriangle(a, b, c) {
     try {
-        return trig = new Triangle(a, b, c);
+         trig = new Triangle(a, b, c);
+         return thig;
     } catch {
         return {
             getArea() {
