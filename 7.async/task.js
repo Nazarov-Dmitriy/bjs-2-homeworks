@@ -26,9 +26,7 @@ class AlarmClock {
             this.alarmCollection.push({
                 id: id,
                 time: time,
-                callback: function () {
-                    console.log(`Будильник ${callback} сработал`);
-                }
+                callback: callback
             });
         }
     }
@@ -39,7 +37,7 @@ class AlarmClock {
             return element.id !== id;
         });
         let finalLength = this.alarmCollection.length;
-        return finalLength < initialLength ? true : false;
+        return finalLength < initialLength ;
 
     }
 
